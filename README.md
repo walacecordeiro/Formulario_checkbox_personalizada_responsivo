@@ -18,7 +18,7 @@ Desafio 2 de formulário da Rocketseat, um formulário mais avançado com opçõ
 <br>
 
 <p align="center">
-  <img alt="layout do projeto" src="preview.png" width="100%">
+  <img alt="layout do projeto" src="preview.png" width="auto" height="800">
 </p>
 
 ## 🚀 Tecnologias
