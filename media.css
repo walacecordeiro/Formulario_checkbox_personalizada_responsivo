@@ -27,7 +27,7 @@
     }
 
     .col-2 div,
-    .col-3>div:nth-child(1) {
+    .col-3 div{
         width: 100%;
     }
 
