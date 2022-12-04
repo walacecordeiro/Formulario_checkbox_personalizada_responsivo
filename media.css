@@ -27,7 +27,7 @@
     }
 
     .col-2 div,
-    .col-3 div{
+    .col-3 * input{
         width: 100%;
     }
 
