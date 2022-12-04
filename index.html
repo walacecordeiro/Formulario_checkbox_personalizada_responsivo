@@ -32,18 +32,18 @@
             <div class="col-2">
               <div class="input-wrapper">
                 <label for="info-name">Nome</label>
-                <input type="text" id="info-name" required minlength="3" placeholder="Teste" />
+                <input type="text" id="info-name" required minlength="3" placeholder="Seu primeiro nome" />
               </div>
               <div class="input-wrapper">
                 <label for="info-last-name">Sobrenome</label>
-                <input type="text" id="info-last-name" required minlength="3" />
+                <input type="text" id="info-last-name" required minlength="3" placeholder="Seu ultimo nome" />
               </div>
             </div>
             <div class="input-wrapper">
               <label for="info-email"
                 >Email <span>(digite um email válido : exemplo@exemplo.com)</span></label
               >
-              <input type="email" id="info-email" required />
+              <input type="email" id="info-email" required placeholder="Seu email mais utilizado" />
             </div>
           </fieldset>
 
@@ -53,7 +53,10 @@
               <label for="info-name-mentorship"
                 >Selecione quem foi seu mentor</label
               >
-              <select id="info-name-mentorship">
+              <select id="info-name-mentorship" required>
+                <option value="" disabled selected>
+                  Procure por seu mentor
+                </option>
                 <option value="walace-cordeiro">
                   Walace Cordeiro dos Santos
                 </option>
@@ -63,7 +66,7 @@
             </div>
             <div class="input-wrapper">
               <label for="mentor-feedback">Feedback sobre o mentor <span>(opcional)</span> </label>
-              <textarea id="mentor-feedback"></textarea>
+              <textarea id="mentor-feedback" placeholder="Conte-nos tudo..."></textarea>
             </div>
             <div class="checkbox-wrapper">
               <input type="checkbox" id="clarified-doubts" />
@@ -79,7 +82,7 @@
             <div class="col-3">
               <div class="input-wrapper">
                 <label for="info-date">Data <span>(DD/MM/AAAA)</span></label>
-                <input placeholder="Selecione uma data" type="date" id="info-date" required />
+                <input placeholder="Insira uma data" type="date" id="info-date" required />
               </div>
               <div class="input-wrapper">
                 <label for="info-begin">Das</label>
