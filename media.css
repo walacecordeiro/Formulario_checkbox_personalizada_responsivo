@@ -1,0 +1,41 @@
+@media screen and (max-width: 47em) {
+    .page {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    header{
+        padding-top: 5rem;
+    }
+
+    header p {
+        text-align: center;
+    }
+
+    .first-legend {
+        height: 11.3rem;
+    }
+
+    #my-form {
+        padding: 3rem 1.5rem 6.4rem;
+        margin-bottom: 3rem;
+    }
+
+    .col-2,
+    .col-3 {
+        flex-direction: column;
+    }
+
+    .col-2 div,
+    .col-3>div:nth-child(1) {
+        width: 100%;
+    }
+
+    #info-name-mentorship {
+        width: 100%;
+    }
+
+    .checkbox-wrapper label::before {
+        width: 3.5rem;
+    }
+}
