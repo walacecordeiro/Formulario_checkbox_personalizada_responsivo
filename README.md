@@ -1,4 +1,4 @@
-<h1 align="center"> Desafio-2-extra </h1>
+<h1 align="center"> Formulário responsivo </h1>
 
 <p align="center">
 Desafio 2 de formulário da Rocketseat, um formulário mais avançado com opções select e checkbox estilizado.
@@ -18,7 +18,7 @@ Desafio 2 de formulário da Rocketseat, um formulário mais avançado com opçõ
 <br>
 
 <p align="center">
-  <img alt="layout do projeto" src="preview.png" width="auto" height="800">
+  <img alt="layout do projeto" src=".github/preview.png" width="auto" height="800">
 </p>
 
 ## 🚀 Tecnologias
